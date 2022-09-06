@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ставки на спорт ValerixBet</title>
+	<link rel="stylesheet" type="text/css" href="css/index2.css"/>
+</head>
+<body>
+
+	<div class="header">
+		<img id="i_men" src="images/lucky_men.jpg" align="right" >
+	</div>
+	<div class="content">
+			<div class="forma">
+				<h1>Авторизация</h1>
+				<hr>
+				<script src="js/entry.js"></script>
+				<form name="entry_data" action="db_authorization.php" method="POST">
+		                <legend>Введите данные:</legend>
+		                <label for="login">Логин:</label><br>
+		                <input type="text" name="login" id="login" minlength="3" maxlength="30" required /><br>
+		                <label for="password">Пароль:</label><br>
+		                <input type="password" name="password" id="password" minlength="3" maxlength="30" required /><br>
+		                <br>
+		                <input type="submit" name="but" value="Войти" onmouseover="ch_c1()" onmouseout="ch_c2()" onclick="check_entry()">
+		                <br><br>
+		                <a href="recovery_pass_window.php">забыли пароль?</a> | <a href="registration.html">регистрация</a>
+				</form>
+			</div>
+	</div>
+	<div class="footer">
+		<img id="i_bets" src="images/bets.jpg" align="left" >
+	</div>
+	<a href="https://vk.com/kopylov19" class="podpis">Все права НЕзащищены этим человеком (с) 2022</a>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+	
+}
+
+body {
+	background-image: url(../images/background.jpg);
+}
+
+legend{
+	font-size: 20px;
+}
+label {
+	font-size: 20px;
+}
+
+.header {
+	height: 280px;
+}
+
+#i_men {
+	
+}
+
+#i_bets {
+	margin-left: 20px;
+}
+
+.content {
+	height: 400px;
+}
+
+.forma {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	text-align: center;
+	margin: auto;
+	background-image: url(../images/fon.jpg);
+	color: white;
+}
+
+.footer {
+	height: 250px;
+}
+.podpis {
+	display: block;
+	text-align: center;
+}
+
+.podpis {
+	color: gray;
+}
+
+.podpis:hover {
+	color: blue;
+}
+
+a {
+	color: gray;
+}
+a:hover {
+	color: blue;
+}
+
+
+input[type="submit"]:hover{
+	background-color: orange;
+}
+
+
+
+/* registration WINDOW */ 
+
+.form_reg {
+	width: 300px;
+	height: 400px;
+	border: 2px solid black;
+	text-align: center;
+	margin: auto;
+	background-image: url(../images/fon.jpg);
+	color: white;
+}

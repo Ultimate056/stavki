@@ -1,0 +1,123 @@
+body {
+	background-image: url(../images/background.jpg);
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.header{
+	height: 150px;
+	background-image: url(../images/123.png);
+	float: center;
+}
+
+.left_side {
+	height: 800px;
+	width: 300px;
+	border: 2px solid gray;
+	float: left;
+}
+
+.content {
+	margin-left: 302px;
+	height: 800px;
+}
+
+.body_content {
+	width: 1400px;
+	height: 804px;
+	background-color: white;
+	opacity: 80%;
+	text-align: center;
+}
+
+.menu {
+	margin-left: 50px;
+	padding-top: 35px;
+	font-size: 18px;
+}
+
+.selected {
+	color: yellow;
+}
+a:hover {
+	color: green;
+}
+
+
+.footer {
+	height: 35px;
+}
+
+.body_content h2 {
+	margin: 0px 0px 0px 0px;
+	padding-top: 20px;
+}
+
+td {
+	border: 1px solid black;
+}
+
+#matches {
+	padding-left: 460px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+#t1_header {
+	font-weight: bold;
+}
+
+
+.match {
+	width: 230px;
+	height: 130px;
+	border: 1px solid green;
+	margin-left: 30px;
+	margin-top: 15px;
+	float: left;
+
+
+}
+
+.match span {
+	padding-top: 10px;
+	display: block;
+}
+
+
+#kfs{
+	padding-top: 20px;
+	padding-left: 45px;
+	font-size: 12px;
+}
+
+.psss{
+	margin-top: 100px;
+	margin-left: 30px;
+	color: white;
+	font-size: 18px;
+}
+
+.m_container {
+	width: 1400px;
+	height: 150px;
+}
+
+.psss span {
+	display: block;
+	padding-top: 10px;
+}
+
+
+#post_bet {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+#post_bet:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+#post_bet:active { background: rgb(152,15,0); } /* при нажатии */

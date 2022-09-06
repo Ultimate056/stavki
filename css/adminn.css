@@ -1,0 +1,103 @@
+body {
+	background-image: url(../images/background.jpg);
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.header{
+	height: 150px;
+	background-image: url(../images/123.png);
+	float: center;
+}
+
+.left_side {
+	height: 800px;
+	width: 300px;
+	border: 2px solid gray;
+	float: left;
+}
+
+.content {
+	margin-left: 302px;
+	height: 800px;
+}
+
+.body_content {
+	width: 1400px;
+	height: 804px;
+	background-color: white;
+	opacity: 80%;
+}
+
+.menu {
+	margin-left: 50px;
+	padding-top: 35px;
+	font-size: 18px;
+}
+
+.selected {
+	color: yellow;
+}
+a:hover {
+	color: green;
+}
+
+.footer {
+	height: 35px;
+}
+
+.body_content h2 {
+	margin: 0px 0px 0px 0px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+
+td {
+	border: 1px solid black;
+}
+
+table {
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	float: left;
+}
+
+#t1_header {
+	font-weight: bold;
+}
+
+.teams {
+	width: 600px;
+	height: 800px;
+	float: left;
+}
+
+.teams form {
+	margin-top: 37px;
+	margin-left: 290px;
+	font-size: 16px;
+}
+
+
+.matches {
+	height: 800px;
+}
+
+span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.matches form {
+	font-size: 18px;
+	margin-left: 630px;
+	margin-top: 30px;
+}
+
+.matches table {
+	padding-left: 160px;
+}
